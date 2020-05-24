@@ -52,7 +52,9 @@ Junit and Integration Test are succussfully executed and availabe at: numgen/src
 
     
 	**Response:**
-    `{"result":"10,8,6,4,2,0"}`
+	
+	    {"result":"10,8,6,4,2,0"}
+    
 
 
 
