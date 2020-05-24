@@ -47,7 +47,9 @@ Junit and Integration Test are succussfully executed and availabe at: numgen/src
 	**Request:**
 	
 
-    `curl -H "Content-Type: application/json" -X GET http://localhost:8080/api/tasks/811e7f1e-4191-471a-9b42-769cfb7a7850?action=get_numlist`
+        curl -H "Content-Type: application/json" -X GET http://localhost:8080/api/tasks/811e7f1e-4191-471a-9b42-769cfb7a7850?action=get_numlist
+
+
     
 	**Response:**
     `{"result":"10,8,6,4,2,0"}`
