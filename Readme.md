@@ -3,6 +3,7 @@
 This is a SpringBoot project, There are 3 Rest API, Description and Curl Commands are as follows, These Curl commands are executed successfully in MacOS Mojave.
 
  1. POST http://localhost:8080/api/generate
+     
      Payload: {"Goal":"10","Step":"2"}
 
 	It returns a TASK_ID(UUID ) with status code '202 Accepted' and asynchronously creates a file at location - /tmp/{TASK_ID}_output.txt and write the numbers in decreasing order as given in Goal in request payload with difference as a Step. If Goal="10" and Step="2" then following numbers will be written in this file:
