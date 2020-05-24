@@ -1,6 +1,6 @@
 
 ### Introduction
-This is a SpringBoot project, There are 3 Rest API, Description and Curl Commands are as follows, These Curl commands are executed successfully in MacOS Mojave. This is a maven project and I have run it through IntelliJ by running the class - com.sushil.numgen.NumgenApplication,
+This is a SpringBoot project, There are 3 Rest API, Description and CURL Commands are as follows, These CURL commands are executed successfully in MacOS Mojave. This is a maven project and I have run it through IntelliJ by running the Class - com.sushil.numgen.NumgenApplication
 
 Rest Controller: com.sushil.numgen.controller.NumgenController
 
