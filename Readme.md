@@ -25,6 +25,7 @@ This is a SpringBoot project, There are 3 Rest API, Description and Curl Command
     http://localhost:8080/api/tasks/811e7f1e-4191-471a-9b42-769cfb7a7850/status
 	
 	It return the status of TASK_ID as given in path param. Status can be SUCCESS, IN_PROGRESS, ERROR
+	
 	**Request:**
 
 	    curl -H "Content-Type: application/json" -X GET http://localhost:8080/api/tasks/811e7f1e-4191-471a-9b42-769cfb7a7850/status
