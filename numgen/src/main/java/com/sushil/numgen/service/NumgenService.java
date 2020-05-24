@@ -90,6 +90,8 @@ public class NumgenService {
 
     /**
      *
+     * This method return the current status of corresponding file, if write operation is completed then it returns SUCCESS,
+     * if still it is being written then returns IN_PROGRESS otherwise ERROR.
      * @param uuid
      * @return
      */
@@ -104,7 +106,7 @@ public class NumgenService {
             response.setResult(Status.SUCCESS.toString());
 
         } else {
-            LOGGER.debug("Neither IN_PROGRESS or SUCCESS state, so setting status ERROR.");
+            LOGGER.debug("Neither IN_PROGRESS nor SUCCESS state, so setting status ERROR.");
             response.setResult(Status.ERROR.toString());
         }
         return response;
@@ -112,7 +114,7 @@ public class NumgenService {
 
 
     /**
-     *
+     * This method read the numbers in corresponding file.
      * @param uuid
      * @return
      * @throws IOException
