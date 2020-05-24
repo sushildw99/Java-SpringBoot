@@ -58,7 +58,6 @@ public class NumgenController {
             return new ResponseEntity<>(task, HttpStatus.ACCEPTED);
         } catch (UncheckedIOException e) {
             LOGGER.error("There is an error while processing this request: {}", e);
-            e.printStackTrace();
             return new ResponseEntity<>(new ErrorResponse(PROCESSING_EXCEPTION), HttpStatus.NOT_ACCEPTABLE);
 
         }
@@ -104,7 +103,6 @@ public class NumgenController {
                 return new ResponseEntity<>(result, HttpStatus.OK);
             } catch (IOException e) {
                 LOGGER.error("There is an error while processing this request: {}", e);
-                e.printStackTrace();
                 return new ResponseEntity<>(new ErrorResponse(PROCESSING_EXCEPTION), HttpStatus.NO_CONTENT);
             }
         }
