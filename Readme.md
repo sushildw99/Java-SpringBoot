@@ -41,6 +41,8 @@ Junit and Integration Test are succussfully executed and availabe at: numgen/src
 
  3. GET
     http://localhost:8080/api/tasks/811e7f1e-4191-471a-9b42-769cfb7a7850?action=get_numlist
+    
+    It returns all the numbers written in the file as in below response.
 
 	**Request:**
 	
