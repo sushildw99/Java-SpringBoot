@@ -5,7 +5,7 @@ This is a SpringBoot project, There are 3 Rest API, Description and CURL Command
 Rest Controller: com.sushil.numgen.controller.NumgenController
 
 
-Junit and Integration Test are availabe at: src/test/java and same can be run through IntelliJ
+Junit and Integration Test are succussfully executed and availabe at: src/test/java and same can be run through IntelliJ
 
  1. POST http://localhost:8080/api/generate
      
