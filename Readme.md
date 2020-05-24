@@ -1,11 +1,11 @@
 
 ### Introduction
-This is a SpringBoot project, There are 3 Rest API, Description and CURL Commands are as follows, These CURL commands are executed successfully in MacOS Mojave. This is a maven project and I have run it through IntelliJ IDEA by running the Class - com.sushil.numgen.NumgenApplication
+This is a SpringBoot Project and Source Code is availabe at numgen/src, Junit and Integration test are available at - numgen/src/test/java/com/sushil/numgen. There are 3 Rest API, Description and CURL Commands are as follows, These CURL commands are executed successfully in MacOS Mojave. This is a Maven Project and I have run it through IntelliJ IDEA by running the main Class - com.sushil.numgen.NumgenApplication
 
 Rest Controller: com.sushil.numgen.controller.NumgenController
 
 
-Junit and Integration Test are succussfully executed and availabe at: src/test/java and same can be run through IntelliJ IDEA
+Junit and Integration Test are succussfully executed and availabe at: numgen/src/test/java and same can be run through IntelliJ IDEA
 
  1. POST http://localhost:8080/api/generate
      
