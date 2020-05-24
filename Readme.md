@@ -1,6 +1,8 @@
 
 ### Introduction
-This is a SpringBoot project, There are 3 Rest API, Description and Curl Commands are as follows, These Curl commands are executed successfully in MacOS Mojave.
+This is a SpringBoot project, There are 3 Rest API, Description and Curl Commands are as follows, These Curl commands are executed successfully in MacOS Mojave. This is a maven project and I have run it through IntelliJ by running the class - com.sushil.numgen.NumgenApplication,
+Rest Controller: com.sushil.numgen.controller.NumgenController
+I have written Junit and Integration Test which are availabe at: src/test/java
 
  1. POST http://localhost:8080/api/generate
      
